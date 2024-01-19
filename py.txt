@@ -1,0 +1,17 @@
+
+Criando Ambiente Virtual (venv)
+- abrir terminal na idle
+- digite python -m venv venv
+* aguarde....
+- digite venv\Scripts\Activate.ps1
+* aguarde ...
+- venv criado
+Copie da url => https://pypi.org/project/selenium/
+- pip install selenium => no terminal
+* aguarde ...
+- digite pip show selenium => para verificar se foi instalado
+* aguarde ...
+o selenium so fica instalado no ambiente virtual
+- crie uma arquivo ´test_script´ => colocar test_ no nome, facilita o reconhecimento do pyTest
+
+
