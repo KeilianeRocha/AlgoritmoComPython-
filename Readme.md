@@ -119,4 +119,6 @@ print('A soma de', n1, '+', n2, 'é igua a ', soma)
  
 ![Untitled (2)](https://github.com/KeilianeRocha/algoritmoComPy/assets/109313933/048e9b2c-8e73-493d-b4fd-c49bb5a38e37)
 
+**EM CONSTRUÇÃO ...**
+
  
