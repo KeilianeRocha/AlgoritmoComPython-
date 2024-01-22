@@ -1,4 +1,7 @@
 
+<p align="right">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
+</p>
  # Resumo
 
 - As linguagens são como interpretes
