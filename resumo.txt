@@ -1,0 +1,40 @@
+
+sempre => 'para strings'
+A função ´Input´ sempre retorna uma Str
+Se usar a função interna do operador, você perde a ordem de precedência
+O ´print´ é um múdolo interno do Python
+alinhamento => {:>objeto} direita
+alinhamento => {:<objeto} esquerda
+alinhamento => {:^objeto} centralizado
+alinhamento => {:=>objeto} centraliza => ===objeto===
+formatando números => {:n° de casasf} => 3.333333 => 3.333
+Não quebrar linhas entre ´prints´ => ,end=' ') no final do primeiro `print`
+quebrar linha dentro do ´print´,\n
+
+#Tipos primitivos
+1. int n° Inteiro (7, -4, 0, 9875)
+2. float => n° Real (4.5, 0.076, -15.223, 7.0) AK ponto flutuante ^^
+3. bool => (True, False) sempre com a primeira letra maiúscula
+4. str => ('olá', "olá", '7,5', '')
+
+#Operações aritméticas
++ => Adição
+    5+2 == 7
+- => Subtração
+    5-2 == 3
+* => Multiplicação (x ou .)
+    5*2 == 10
+/ => Divisão
+    5/2 == 2.5
+% => Módulo/ resto da divisão
+    5%2 == 1
+** => Potência
+    5**2 == 25
+// => Divisão inteira
+    5//2 == 2
+
+#Ordem de precedência
+1° => ()
+2° => **
+3° => *, /, //, %
+4° => +, -
