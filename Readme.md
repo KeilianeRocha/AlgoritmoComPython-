@@ -4,7 +4,11 @@
 <p align="right">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
 </p>
+<<<<<<< HEAD
  #Resumo
+=======
+ # Resumo
+>>>>>>> 78825f08503345c1bd4d4a70aa1810beef224725
 
 - As linguagens são como interpretes
 - Python é uma de propósito geral ⇒ Pode ser usado pra vários propósitos
