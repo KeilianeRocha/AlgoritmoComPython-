@@ -4,11 +4,8 @@
 <p align="right">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
 </p>
-<<<<<<< HEAD
- #Resumo
-=======
+
  # Resumo
->>>>>>> 78825f08503345c1bd4d4a70aa1810beef224725
 
 - As linguagens são como interpretes
 - Python é uma de propósito geral ⇒ Pode ser usado pra vários propósitos
@@ -36,11 +33,11 @@
 
 ⇒ Após instalado, devem aparecer os seguintes itens
 
-⇒ IDLE pode ser usado como o terminal
+>⇒ IDLE pode ser usado como o terminal
 
-- IDLE ⇒ É a função interativa, use para testar algo
-- Script ⇒ Use para programar
+>- IDLE ⇒ É a função interativa, use para testar algo
 
+>- Script ⇒ Use para programar
 
 ## Funções
 
@@ -55,14 +52,114 @@ print(nome)
 
 ## Teoria
 
-- Delimitadores ⇒ ‘entre’ ou “entre” para mensagens
-    - Dentro das ‘’ ou “” Pode escrever em caixa alta
-- Variáveis ⇒ Espaço em memória que recebe algo
-    - Toda variável é um objeto, mas nem todo objeto é uma variável
-    - Em letra minúsculas
-    - Variáveis sempre recebem algo por ⇒ =
-- Comandos ⇒ Todo comando é uma função
-    - Toda função tem que ter ⇒ (isso aqui)
+>**- Delimitadores ⇒ ' ' simples ou “ ” duplas para Str**
+>   - Dentro das ‘ ’ ou “ ” Pode escrever em caixa alta
+> 
+>**- Variáveis ⇒ Espaço em memória que recebe algo**
+> 
+>    - Toda variável é um objeto, mas nem todo objeto é uma variável**
+>
+>    - Em letra minúsculas
+> 
+>    - Variáveis sempre recebem algo por ⇒ =
+>**- Comandos ⇒ Todo comando é uma função**
+> 
+>    - Toda função tem que ter ⇒ ()
+
+**Sempre para strings => ' ' simples**
+```python
+print('olá, mundo!')
+```
+**A função *Input* sempre retorna uma *Str* **
+```python
+nome = input('Digite seu nome ')
+```
+**Se usar a função interna do operador, você perde a ordem de precedência**
+```python
+pow(4)
+```
+**O *print* é um múdolo interno do *Python* **
+```python
+Print('nome')
+```
+**Alinhamento => {:>objeto} direita**
+```python
+nome = str(input('Digite seu nome'))
+Print('olá {:>}'.format(nome))
+```
+**Alinhamento => {:<objeto} esquerda**
+```python
+nome = str(input('Digite seu nome'))
+Print('olá {:<}'.format(nome))
+```
+*Alinhamento => {:^objeto} centralizado**
+```python
+nome = str(input('Digite seu nome'))
+Print('olá {:^}'.format(nome))
+```
+**Alinhamento => {:=^objeto} centraliza => ===objeto===**
+```python
+nome = str(input('Digite seu nome'))
+Print('olá {:=^}'.format(nome))
+```
+**Formatando números => {:n° de casasf} => 3.333333 => 3.333**
+```python
+n = float(input('um número'))
+Print('olá {:2f}'.format(n))
+```
+**Não quebrar linhas entre ´prints´ => ,end=' ') no final do primeiro `print`**
+```python
+n1 = float(input('Digite seu nome'))
+n2 = float(input('Digite seu Sobrenome'))
+Print('olá {} {}'.format(n1,n2),end='')
+```
+**Quebrar linha dentro do ´print´,\n**
+```python
+n1 = float(input('Digite seu nome'))
+n2 = float(input('Digite seu Sobrenome'))
+Print('olá {},\n{}'.format(n1,n2))
+```
+## Tipos primitivos
+
+>1. int n° Inteiro (7, -4, 0, 9875)
+>
+>2. float => n° Real (4.5, 0.076, -15.223, 7.0) AK ponto flutuante ^^
+>
+>3. bool => (True, False) sempre com a primeira letra maiúscula
+>
+>4. str => ('olá', "olá", '7,5', '')
+>
+
+## Operações aritméticas
+
+>+ => Adição
+    5+2 == 7
+>- => Subtração
+    5-2 == 3
+>* => Multiplicação (x ou .)
+   5*2 == 10
+>
+>/ => Divisão
+   5/2 == 2.5
+>
+>% => Módulo/ resto da divisão
+   5%2 == 1
+> 
+>** => Potência
+   5**2 == 25
+> 
+>// => Divisão inteira
+   5//2 == 2
+
+## Ordem de precedência
+
+>1° => ()
+> 
+>2° => **
+> 
+>3° => *, /, //, %
+> 
+>4° => +, -
 
 ```python
 nome = 'Test'
@@ -70,44 +167,6 @@ nome = "Test"
 Print(nome)
 ```
 
-# Desafios
-
-1. `Criar um script que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de acordo com o valor digitado`
-
-```python
-nome = input('Qual o seu nome? ')
-print('Seja bem vindo!', nome)
-```
-
-1. Criar um script que leia o dia, mes e ano de nascimento de uma pessoa e mostre uma mesnagem com a data formatada.
-
-
-nome = input('Qual o seu nome? ')
-dia = input('Qual o dia do seu nascimento? ')
-mes = input('Qual o mês do seu nascimento? ')
-ano = input('Qual o ano do seu nascimento? ')
-print('que legal! ', nome, 'você nasceu no dia', dia, 'de', mes, 'de', ano)
-```
-
-1. `Crie um script que leia dois numeros e tente mostrar a soma entre eles.`
-
-```python
-#Código com erro
-n1 = input('Digite um número: ')
-n2 = input('Digite outro número: ')
-print('A soma de ',n1, '+',n2, 'é igua a ',n1+n2)
-
-"""
-Não vai somar, vai unir
-input() recebe uma entrada do usuário, como uma string
-Para realizar a soma é necessário converter os valores para o tipo numérico
-"""
-#Código Corrigido
-n1 = int('Digite um número: ')
-n2 = int('Digite outro número: ')
-soma = n1 + n2
-print('A soma de', n1, '+', n2, 'é igua a ', soma)
-```
 
 ## Salvando…
 
@@ -115,18 +174,15 @@ print('A soma de', n1, '+', n2, 'é igua a ', soma)
 
 ⇒ Abra a IDLE
 
-⇒ Digite um dos códigos
+=> Crie um diretório
 
-![Untitled](https://github.com/KeilianeRocha/algoritmoComPy/assets/109313933/f407f936-1460-43ef-b48a-7d8e56f34c75)
+=> Dentro do diretório crie um ´file.py´
 
 ⇒ Digite o Desafio 1
 
-![Untitled (1)](https://github.com/KeilianeRocha/algoritmoComPy/assets/109313933/1e59e770-c54b-495e-aeeb-2f72b5fcb441)
-
 ⇒ Salve o arquivo na pasta e
- execute
- 
-![Untitled (2)](https://github.com/KeilianeRocha/algoritmoComPy/assets/109313933/048e9b2c-8e73-493d-b4fd-c49bb5a38e37)
+ execute => ´run´
+
 
 **EM CONSTRUÇÃO ...**
 
