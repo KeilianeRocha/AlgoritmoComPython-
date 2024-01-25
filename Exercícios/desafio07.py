@@ -1,1 +1,0 @@
-#Crie um algoritmo que leia um número e mostreo seu dobro, triplo e a raiz quadrada.
