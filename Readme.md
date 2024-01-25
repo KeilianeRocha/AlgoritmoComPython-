@@ -52,7 +52,7 @@ print(nome)
 
 ## Teoria
 
->**- Delimitadores ⇒ ' ' simples ou “ ” duplas para Str**
+>**- Delimitadores ⇒ ' ' simples ou “ ” duplas para `Str`**
 >   - Dentro das ‘ ’ ou “ ” Pode escrever em caixa alta
 > 
 >**- Variáveis ⇒ Espaço em memória que recebe algo**
@@ -66,11 +66,11 @@ print(nome)
 > 
 >    - Toda função tem que ter ⇒ ()
 
-**Sempre para strings => ' ' simples**
+**Sempre para `strings` => ' ' simples**
 ```python
 print('olá, mundo!')
 ```
-**A função *Input* sempre retorna uma *Str* **
+**A função `Input` sempre retorna uma `Str`**
 ```python
 nome = input('Digite seu nome ')
 ```
@@ -78,7 +78,7 @@ nome = input('Digite seu nome ')
 ```python
 pow(4)
 ```
-**O *print* é um múdolo interno do *Python* **
+**O `print` é um `múdolo` interno do `Python`**
 ```python
 Print('nome')
 ```
@@ -107,7 +107,7 @@ Print('olá {:=^}'.format(nome))
 n = float(input('um número'))
 Print('olá {:2f}'.format(n))
 ```
-**Não quebrar linhas entre ´prints´ => ,end=' ') no final do primeiro `print`**
+**Não quebrar linhas entre `prints` => ,end=' ') no final do primeiro `print`**
 ```python
 n1 = float(input('Digite seu nome'))
 n2 = float(input('Digite seu Sobrenome'))
@@ -168,20 +168,20 @@ Print(nome)
 ```
 
 
-## Salvando…
+## Salvando ...
 
 ⇒ Crie uma pasta no computador
 
 ⇒ Abra a IDLE
 
-=> Crie um diretório
+=> Crie um `diretório`
 
-=> Dentro do diretório crie um ´file.py´
+=> Dentro do diretório crie um `file.py`
 
 ⇒ Digite o Desafio 1
 
 ⇒ Salve o arquivo na pasta e
- execute => ´run´
+ execute => `run`
 
 
 **EM CONSTRUÇÃO ...**
