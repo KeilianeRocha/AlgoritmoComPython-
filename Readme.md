@@ -1,6 +1,6 @@
 ![icons8-python-150](https://github.com/KeilianeRocha/AlgoritmosComPython-/assets/109313933/d0bb8ba0-13e8-476e-8e0c-d9f29bedcdf4)
 
-<h1 align="center"> Algorimo Com Python </h1>
+<h1 align="center"> Algoritmo Com Python </h1>
 <p align="right">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
 </p>
