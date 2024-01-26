@@ -57,9 +57,10 @@ print(nome)
 > 
 >**- Variáveis ⇒ Espaço em memória que recebe algo**
 > 
->    - Toda variável é um objeto, mas nem todo objeto é uma variável**
+>    - Toda variável é um objeto, mas nem todo objeto é uma variável
 >
->    - Em letra minúsculas
+>   - Quando menos variáveis vc utilizar, menos memória vc vai precisar
+>    - Variável sempre em letra minúsculas
 > 
 >    - Variáveis sempre recebem algo por ⇒ =
 >**- Comandos ⇒ Todo comando é uma função**
