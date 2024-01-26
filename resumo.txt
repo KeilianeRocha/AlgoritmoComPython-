@@ -1,0 +1,2 @@
+
+* quando menos variáveis vc utilizar, menos memoria vc vai precisar
