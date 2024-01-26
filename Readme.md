@@ -6,10 +6,11 @@
 </p>
 
  # Resumo
+>"Um algoritmo é uma sequência de raciocínios, instruções ou operações para alcançar um objetivo, sendo necessário que os passos sejam finitos e operados sistematicamente. Um algoritmo, portanto, conta com a entrada `(input)` e saída `(output)` de informações mediadas pelas instruções." [rockcontent](https://rockcontent.com/br/blog/algoritmo/#:~:text=Um%20algoritmo%20%C3%A9%20uma%20sequ%C3%AAncia,matem%C3%A1tico%20%C3%A1rabe%20do%20s%C3%A9culo%20IX.)
 
-- As linguagens são como interpretes
-- Python é uma de propósito geral ⇒ Pode ser usado pra vários propósitos
-- Fácil e intuitiva
+> As linguagens são como interpretes
+- O Python é uma línguagem de propósito geral, podendo ser utilizada para *n* posibilidades
+- Ela fácil e intuitiva
 - É multiplataforma
 - Baterry Included
 - É livre
@@ -173,7 +174,7 @@ print(nome)
 
 ⇒ Crie uma pasta no computador
 
-⇒ Abra a IDLE
+⇒ Abra a IDLE (utilizei o [PyCharm - Community](https://www.jetbrains.com/pycharm/download/other.html))
 
 => Crie um `diretório`
 
