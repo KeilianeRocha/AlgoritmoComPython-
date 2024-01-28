@@ -1,5 +1,5 @@
-# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possivies
-# sobre ele.
+"""Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possivies
+sobre ele."""
 
 txt = input('Digite algo: ')
 print('O tipo primitivo desse valor é', type(txt))

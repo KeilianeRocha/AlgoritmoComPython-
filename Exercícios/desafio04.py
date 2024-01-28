@@ -1,4 +1,4 @@
-# Crie um script que leia dois numeros e tente mostrar a soma entre eles.
+"""Crie um script que leia dois numeros e tente mostrar a soma entre eles."""
 
 # Int
 n1 = int(input('Digite um valor: '))

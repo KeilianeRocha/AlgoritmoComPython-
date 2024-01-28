@@ -1,10 +1,10 @@
-# Crie um algoritmo que leia um número e mostre seu dobro, triplo e a raiz quadrada.
+"""Crie um algoritmo que leia um número e mostre seu dobro, triplo e a raiz quadrada."""
 import math
 
-#n = int(input('Digite um número: '))
-#print('O Dobro de {} é {}'.format(n, (n*2)))
-#print('O Triplo de {} é {}'.format(n, (n*3)))
-#print('a Raíz Quadrada de {} é {}'.format(n, (n**(1/2))))
+"""n = int(input('Digite um número: '))
+print('O Dobro de {} é {}'.format(n, (n*2)))
+print('O Triplo de {} é {}'.format(n, (n*3)))
+print('a Raíz Quadrada de {} é {}'.format(n, (n**(1/2))))"""
 
 # Ou colocando as váriaveis separadamente e usando a importação de módulo
 

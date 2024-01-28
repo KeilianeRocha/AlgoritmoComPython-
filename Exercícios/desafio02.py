@@ -1,4 +1,4 @@
-# Criar um script que leia o dia, mes e ano de nascimento de uma pessoa e mostre uma mesnagem com a data formatada.
+"""Criar um script que leia o dia, mes e ano de nascimento de uma pessoa e mostre uma mesnagem com a data formatada."""
 
 nome = input('Qual o seu nome? ')
 dia = input('Qual o dia do seu nascimento? ')

@@ -1,9 +1,11 @@
-# Crie um script que leia dois numeros e tente mostrar a soma entre eles.
+"""Crie um script que leia dois numeros e tente mostrar a soma entre eles."""
 
-# Código com erro
- # n1 = input('Digite um número: ')
- # n2 = input('Digite outro número: ')
- # print('A soma de ', n1, '+', n2, 'é igua a ', n1 + n2)
+"""Código com erro
+
+n1 = int(input('Digite um número: '))
+n2 = int(input('Digite outro número: '))
+print('A soma de ', n1, '+', n2, 'é igua a ', n1 + n2)
+"""
 
 """
 Não vai somar, vai unir
@@ -15,8 +17,8 @@ n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 soma = n1 + n2
 # print('A soma de', n1, '+', n2, 'é igua a ', soma)
-#print('A soma de {} + {} é {}'.format(n1, n2, soma))
-print('A soma de {0} + {1} é {2}'.format(n1, n2, soma)) #ordenando
+# print('A soma de {} + {} é {}'.format(n1, n2, soma))
+print('A soma de {0} + {1} é {2}'.format(n1, n2, soma)) # ordenando
 
 
 

@@ -1,4 +1,4 @@
-# Desenvolva um programa que leia as quatro notas de um aluno, calcule e mostre a sua média.
+"""Desenvolva um programa que leia as quatro notas de um aluno, calcule e mostre a sua média."""
 n1 = float(input('Digite a 1° Nota: '))
 n2 = float(input('Digite a 2° Nota: '))
 n3 = float(input('Digite a 3° Nota: '))
