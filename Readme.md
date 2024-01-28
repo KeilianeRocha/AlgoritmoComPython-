@@ -1,191 +1,172 @@
 ![icons8-python-150](https://github.com/KeilianeRocha/AlgoritmosComPython-/assets/109313933/d0bb8ba0-13e8-476e-8e0c-d9f29bedcdf4)
 
-<h1 align="center"> Algoritmo Com Python </h1>
+<h1 align="center"> Desafio de Programação Python </h1>
 <p align="right">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO"/>
 </p>
 
- # Resumo
->"Um algoritmo é uma sequência de raciocínios, instruções ou operações para alcançar um objetivo, sendo necessário que os passos sejam finitos e operados sistematicamente. Um algoritmo, portanto, conta com a entrada `(input)` e saída `(output)` de informações mediadas pelas instruções." [rockcontent](https://rockcontent.com/br/blog/algoritmo/#:~:text=Um%20algoritmo%20%C3%A9%20uma%20sequ%C3%AAncia,matem%C3%A1tico%20%C3%A1rabe%20do%20s%C3%A9culo%20IX.)
+---
 
-> As linguagens são como interpretes
-- O Python é uma línguagem de propósito geral, podendo ser utilizada para *n* posibilidades
-- Ela fácil e intuitiva
-- É multiplataforma
-- Baterry Included
-- É livre
-- Organizada
-- Orientada a objetos
-- Possui muitas bibliotecas
+ # Algoritmo com Python
 
-## Onde aplicar?
+---
+## Resumo
+
+> "Um algoritmo é uma sequência de raciocínios, instruções ou operações para alcançar um objetivo, sendo necessário que os passos sejam finitos e operados sistematicamente. Um algoritmo, portanto, conta com a entrada `(input)` e saída `(output)` de informações mediadas pelas instruções." - [rockcontent](https://rockcontent.com/br/blog/algoritmo/#:~:text=Um%20algoritmo%20%C3%A9%20uma%20sequ%C3%AAncia,matem%C3%A1tico%20%C3%A1rabe%20do%20s%C3%A9culo%20IX.)
+
+## Linguagem Python
+
+- Python é uma linguagem de propósito geral, conhecida por sua simplicidade e versatilidade.
+- Facilidade e intuição fazem parte da sua essência.
+- Multiplataforma, organizada e orientada a objetos.
+- Possui muitas bibliotecas que facilitam o desenvolvimento.
+
+## Onde Aplicar?
 
 - Inteligência Artificial
 - Biotecnologia
 - Computação 3D
 
-## Intalação
+## Instalação
 
-- O sistema operacional Windows não vem o o Python instalado
-  
-🔗 [Welcome to Python.org](https://www.python.org/)
+1. O sistema operacional Windows não inclui o Python por padrão.
+2. Baixe e instale o Python: [Python.org](https://www.python.org/)
+3. Marque a opção "Add Path" durante a instalação.
 
-⇒ Marcar “Add Path” 
+Depois de instalado, confirme a instalação usando o seguinte comando no terminal:
 
-⇒ Após instalado, devem aparecer os seguintes itens
+```bash
+python --version
+```
 
->⇒ IDLE pode ser usado como o terminal
+## Iniciando no Python
+- Utilize o IDLE como terminal interativo.
+- IDLE: Função interativa para testar comandos.
+- Script: Utilize para programar.
 
->- IDLE ⇒ É a função interativa, use para testar algo
+# Exemplo de Funções
 
->- Script ⇒ Use para programar
-
-## Funções
-
-```python
-#print => imprima algo
+## Imprime algo na tela
+```Python
 print('Olá, Mundo!')
+```
 
-#input => Leia algo
+## Lê uma entrada do usuário
+````python
 nome = input('Qual o seu nome? ')
 print(nome)
-```
+````
+# Teoria
+- Delimitadores: Use 'simples' ou "duplas" para str.
+- Variáveis: Espaços em memória que recebem valores.
+- Comandos: Todo comando é uma função, e toda função tem que ter ().
 
-## Teoria
+# Formatando Texto
 
->**- Delimitadores ⇒ ' ' simples ou “ ” duplas para `Str`**
->   - Dentro das ‘ ’ ou “ ” Pode escrever em caixa alta
-> 
->**- Variáveis ⇒ Espaço em memória que recebe algo**
-> 
->    - Toda variável é um objeto, mas nem todo objeto é uma variável
->
->   - Quando menos variáveis vc utilizar, menos memória vc vai precisar
->    - Variável sempre em letra minúsculas
-> 
->    - Variáveis sempre recebem algo por ⇒ =
->**- Comandos ⇒ Todo comando é uma função**
-> 
->    - Toda função tem que ter ⇒ ()
-
-**Sempre para `strings` => ' ' simples**
-```python
-print('olá, mundo!')
-```
-**A função `Input` sempre retorna uma `Str`**
-```python
-nome = input('Digite seu nome ')
-```
-**Se usar a função interna do operador, você perde a ordem de precedência**
-```python
-pow(4)
-```
-**O `print` é um `múdolo` interno do `Python`**
-```python
-print('nome')
-```
-**Alinhamento => {:>objeto} direita**
-```python
+## Alinhamento à direita
+````python
 nome = input('Digite seu nome: ')
 print('Olá {:>20}'.format(nome))
-```
-**Alinhamento => {:<objeto} esquerda**
-```python
+````
+## Alinhamento à esquerda
+````python
 nome = input('Digite seu nome: ')
 print('Olá {:<20}'.format(nome))
-```
-*Alinhamento => {:^objeto} centralizado**
-```python
+````
+# Alinhamento centralizado
+````python
 nome = input('Digite seu nome: ')
 print('Olá {:^20}'.format(nome))
-```
-**Alinhamento => {:=^objeto} centraliza => ===objeto===**
-```python
-nome = input('Digite seu nome: ')
-print('Olá {:=^20}'.format(nome))
-```
-**Formatando números => {:n° de casasf} => 3.333333 => 3.333**
-```python
-n = float(input('um número'))
-print('olá {:2f}'.format(n))
-```
-**Não quebrar linhas entre `prints` => ,end=' ') no final do primeiro `print`**
-```python
-n1 = float(input('Digite seu nome'))
-n2 = float(input('Digite seu Sobrenome'))
-print('olá {} {}'.format(n1,n2),end='')
-```
-**Quebrar linha dentro do ´print´,\n**
-```python
-n1 = float(input('Digite seu nome'))
-n2 = float(input('Digite seu Sobrenome'))
-print('olá {},\n{}'.format(n1,n2))
-```
-## Tipos primitivos
+````
+# Tipos Primitivos
+- int: Número inteiro (ex: 7, -4, 0, 9875)
+- float: Número real (ex: 4.5, 0.076, -15.223, 7.0)
+- bool: Valor lógico (True, False)
+- str: Texto ('olá', "olá", '7,5', '')
 
->1. int n° Inteiro (7, -4, 0, 9875)
->
->2. float => n° Real (4.5, 0.076, -15.223, 7.0) AK ponto flutuante ^^
->
->3. bool => (True, False) sempre com a primeira letra maiúscula
->
->4. str => ('olá', "olá", '7,5', '')
->
+# Operações Aritméticas
+- +: Adição
+- -: Subtração
+- *: Multiplicação
+- /: Divisão
+- %: Módulo/resto da divisão
+- **: Potência
+- //: Divisão inteira
 
-## Operações aritméticas
+# Ordem de Precedência
+- ()
+- **
+- *, /, //, %
+- +, -
 
->+ => Adição
-    5+2 == 7
->- => Subtração
-    5-2 == 3
->* => Multiplicação (x ou .)
-   5*2 == 10
->
->/ => Divisão
-   5/2 == 2.5
->
->% => Módulo/ resto da divisão
-   5%2 == 1
-> 
->** => Potência
-   5**2 == 25
-> 
->// => Divisão inteira
-   5//2 == 2
+# Módulos em Python
 
-## Ordem de precedência
+- [Python.org](https://www.python.org/): Verifique a versão do Python no console do Python.
+- [Python Docs](https://docs.python.org/): Consulte a referência de bibliotecas.
+- [PyPI](https://pypi.org/): Explore pacotes adicionais.
+- Python permite a criação de módulos para compartilhamento na comunidade.
+- Programas Python, por padrão, têm comandos limitados, tornando a linguagem ágil.
 
->1° => ()
-> 
->2° => **
-> 
->3° => *, /, //, %
-> 
->4° => +, -
+## Comandos Básicos para Importar Módulos
 
-```python
-nome = 'Test'
-nome = "Test"
-print(nome)
-```
+- `import xxx`: Importa de forma generalista as funcionalidades do módulo.
+- `from xxx import yyyy`: Importação otimizada para importar uma funcionalidade específica.
+- Escrita: `módulo.variável` (Exemplo: `random.numero`).
+
+# Manipulação de Cadeias de Texto
+
+- Para o Python, toda cadeia de texto está em 'simples'.
+- Índice: Cada espaço recebe um índice na cadeia de texto.
+  - Exemplo: `frase = "curso de"`.
+  - Índices: [0][1][2][3][4][5][6][7].
+
+## Fatiamento de String
+
+- `frase[2]`: Seleciona a letra no índice 2.
+- `frase[2:6]`: Seleciona do índice 2 ao 5, eliminando o 6.
+- `frase[2:8]`: Seleciona até o índice 7 (não é a melhor forma de fatiar).
+- `frase[2:7:2]`: Seleciona pulando de 2 em 2.
+- `frase[:5]`: Seleciona do 0 ao 4.
+- `frase[5:]`: Seleciona do 5 até o final.
+- `frase[5::3]`: Seleciona do 5 até o final de 3 em 3.
+
+## Análise de String
+
+- `len(frase)`: Mostra a quantidade de espaços na frase.
+- `frase.count('o')`: Conta quantas vezes 'o' aparece na frase.
+- `frase.find('deo')`: Busca a frase 'deo' e mostra em que momento ela começa.
+- `'curso' in frase`: Verifica se 'curso' existe na frase.
+
+## Transformação
+
+- `frase.replace('curso', 'android')`: Procura e substitui.
+- `frase.upper()`: Transforma em maiúsculo.
+- `frase.capitalize()`: Coloca todos para minúsculo, deixando apenas a primeira letra em maiúsculo.
+- `frase.title()`: Capitaliza as primeiras letras de cada palavra.
+- `frase.strip()`: Remove espaços inúteis.
+- `frase.rstrip()`: Remove espaços inúteis no final.
+- `frase.lstrip()`: Remove espaços inúteis à esquerda.
+
+## Divisão
+
+- `frase.split()`: Divide a string considerando os espaços.
+
+## Junção
+
+- `'-'.join(frase)`: Junta a frase usando '-' como delimitador.
+---
+
+# Salvando e Executando
+- Crie uma pasta no computador.
+  - Abra o IDLE ou utilize um ambiente de desenvolvimento como o 
+  [PyCharm - Community.](https://www.jetbrains.com/pycharm/download/other.html)
+- Crie um arquivo dentro da pasta com extensão .py.
+- Digite o código.
+- Salve o arquivo e execute.
+- **Mantenha seu código organizado**
+---
+***Em construção ...***
 
 
-## Salvando ...
-
-⇒ Crie uma pasta no computador
-
-⇒ Abra a IDLE (utilizei o [PyCharm - Community](https://www.jetbrains.com/pycharm/download/other.html))
-
-=> Crie um `diretório`
-
-=> Dentro do diretório crie um `file.py`
-
-⇒ Digite o Desafio 1
-
-⇒ Salve o arquivo na pasta e
- execute => `run`
-
-
-**EM CONSTRUÇÃO ...**
 
  
