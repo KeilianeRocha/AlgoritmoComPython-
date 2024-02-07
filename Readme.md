@@ -133,9 +133,11 @@ print('Olá {:^20}'.format(nome))
 ## Análise de String
 
 - `len(frase)`: Mostra a quantidade de espaços na frase.
-- `frase.count('o')`: Conta quantas vezes 'o' aparece na frase.
+- `frase.count('o')+1`: Conta quantas vezes 'o' aparece na frase. 
+  - E o `+1` evita que ela inicie no índice `0`
 - `frase.find('deo')`: Busca a frase 'deo' e mostra em que momento ela começa.
 - `'curso' in frase`: Verifica se 'curso' existe na frase.
+- `frase.rfind('A')`: Busca a frase 'deo' e mostra em que momento ela termina.
 
 ## Transformação
 
