@@ -57,9 +57,12 @@ nome = input('Qual o seu nome? ')
 print(nome)
 ````
 # Teoria
-- Delimitadores: Use 'simples' ou "duplas" para str.
+- Delimitadores: Use 'aspas simples' ou "aspas duplas" para str.
+- Comandos: Todo comando é uma função.
+- Função: Toda função deve ter () ex: **print**.
+- Mensagens devem está entre "string", números não são colocados entre "aspas"
 - Variáveis: Espaços em memória que recebem valores.
-- Comandos: Todo comando é uma função, e toda função tem que ter ().
+
 
 # Formatando Texto
 
